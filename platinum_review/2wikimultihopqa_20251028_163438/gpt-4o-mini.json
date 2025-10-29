@@ -1,0 +1,512 @@
+{
+  "metadata": {
+    "model_name": "gpt-4o-mini",
+    "dataset_name": "2wikimultihopqa",
+    "num_questions": 50,
+    "num_exact_match": 29,
+    "num_substring_match": 11,
+    "num_no_match": 10
+  },
+  "results": [
+    {
+      "question_id": "83bf3b5a0bd911eba7f7acde48001122",
+      "question": "When did Lothair Ii's mother die?",
+      "predicted_answer": "20 March 851",
+      "full_response": "Lothair II's mother is Ermengarde of Tours. According to the information provided, Ermengarde of Tours died on 20 March 851. Therefore, the date of her death is directly stated in the passage. \n\nAnswer: 20 March 851.",
+      "gold_answers": [
+        "20 March 851"
+      ],
+      "oracle_context": "Wikipedia Title: Lothair II\nHe was the second son of Emperor Lothair I and Ermengarde of Tours.\nWikipedia Title: Ermengarde of Tours\nErmengarde of Tours (d. 20 March 851) was the daughter of Hugh of Tours, a member of the Etichonen family."
+    },
+    {
+      "question_id": "a80d84e7096d11ebbdb0ac1f6bf848b6",
+      "question": "Which film was released first, Aas Ka Panchhi or Phoolwari?",
+      "predicted_answer": "Phoolwari",
+      "full_response": "To determine which film was released first, I need to compare the release years of both films. Aas Ka Panchhi was released in 1961, while Phoolwari was released in 1946. Since 1946 is earlier than 1961, Phoolwari was released first. \n\nAnswer: Phoolwari.",
+      "gold_answers": [
+        "Phoolwari"
+      ],
+      "oracle_context": "Wikipedia Title: Aas Ka Panchhi\nAas Ka Panchhi is a 1961 Hindi movie produced by J. Om Prakash.\nWikipedia Title: Phoolwari\nPhoolwari( The Bower) is a 1946 Indian Bollywood film."
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "question": "What is the place of birth of the performer of song Changed It?",
+      "predicted_answer": "Saint James, Port of Spain",
+      "full_response": "The performer of the song \"Changed It\" is Nicki Minaj. According to the information provided, she was born in Saint James, Port of Spain. Therefore, the place of birth of Nicki Minaj, the performer of the song, is Saint James, Port of Spain. \nAnswer: Saint James, Port of Spain.",
+      "gold_answers": [
+        "Port of Spain"
+      ],
+      "oracle_context": "Wikipedia Title: Changed It\n\"Changed It\" is a song by Trinidadian-American rapper and singer Nicki Minaj and American rapper Lil Wayne.\nWikipedia Title: Nicki Minaj\nBorn in Saint James, Port of Spain, and raised in Queens, New York City, she gained public recognition after releasing the mixtapes"
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "question": "Are Marufabad and Nasamkhrali both located in the same country?",
+      "predicted_answer": "No",
+      "full_response": "To determine if Marufabad and Nasamkhrali are located in the same country, I need to analyze the information provided about each village. Marufabad is located in Isfahan Province, Iran, while Nasamkhrali is in the Telavi district of Georgia. Since Iran and Georgia are two distinct countries, it follows that Marufabad and Nasamkhrali are not located in the same country. \n\nAnswer: No.",
+      "gold_answers": [
+        "no"
+      ],
+      "oracle_context": "Wikipedia Title: Marufabad\nMarufabad( also Romanized as Ma\u2018r\u016bf\u0101b\u0101d) is a village in Kabutarsorkh Rural District, in the Central District of Chadegan County, Isfahan Province, Iran.\nWikipedia Title: Nasamkhrali\nNasamkhrali( previously known as Nasomkhari until 1955) is a village in the Telavi district of Georgia."
+    },
+    {
+      "question_id": "a1cdb240085811ebbd5bac1f6bf848b6",
+      "question": "Which film has the director who is older, God'S Gift To Women or Aldri Annet Enn Br\u00e5k?",
+      "predicted_answer": "God's Gift to Women",
+      "full_response": "To determine which film has the older director, I need to identify the birth years of the directors of both films. \n\n1. \"God's Gift to Women\" is directed by Michael Curtiz, who was born on December 24, 1886.\n2. \"Aldri annet enn br\u00e5k\" is edited by Edith Carlmar, who was born on November 15, 1911.\n\nNow, comparing their birth years:\n- Michael Curtiz (1886) is older than Edith Carlmar (1911).\n\nSince Michael Curtiz directed \"God's Gift to Women,\" and he is older than Edith Carlmar, who is associated with \"Aldri annet enn br\u00e5k,\" it follows that \"God's Gift to Women\" has the older director.\n\nAnswer: God's Gift to Women.",
+      "gold_answers": [
+        "God'S Gift To Women"
+      ],
+      "oracle_context": "Wikipedia Title: God's Gift to Women\nGod's Gift to Women is a 1931 American pre-Code romantic musical comedy film directed by Michael Curtiz, starring Frank Fay, Laura LaPlante, and Joan Blondell.\nWikipedia Title: Aldri annet enn br\u00e5k\nAldri annet enn br\u00e5k is a 1954 Norwegian comedy- drama film, edited by Edith Carlmar.\nWikipedia Title: Michael Curtiz\nMih\u00e1ly Kert\u00e9sz (1905); December 24, 1886 April 11, 1962) was a Hungarian-born American film director, recognized as one of the most prolific directors in history.\nWikipedia Title: Edith Carlmar\nEdith Carlmar (Edith Mary Johanne Mathiesen) (15 November 1911 \u2013 17 May 2003) was an Norwagian actress and Norway's first female film director."
+    },
+    {
+      "question_id": "6718770a087311ebbd66ac1f6bf848b6",
+      "question": "Which film whose director was born first, El Tonto or The Heart Of Doreon?",
+      "predicted_answer": "The Heart of Doreon",
+      "full_response": "To determine which film's director was born first, we need to look at the birth dates of the directors of both films. \n\n1. **El Tonto** is directed by Charlie Day, who was born on February 9, 1976.\n2. **The Heart of Doreon** is directed by Robert North Bradbury, who was born on March 23, 1886.\n\nNow, comparing the two birth dates:\n- Robert North Bradbury (1886) was born significantly earlier than Charlie Day (1976).\n\nThus, the film directed by Robert North Bradbury, \"The Heart of Doreon,\" has a director who was born first.\n\nAnswer: The Heart of Doreon.",
+      "gold_answers": [
+        "The Heart Of Doreon"
+      ],
+      "oracle_context": "Wikipedia Title: El Tonto\nEl Tonto is an upcoming comedy film written and directed by Charlie Day.\nWikipedia Title: The Heart of Doreon\nIt was directed by Robert North Bradbury and stars Tom Santschi and Ruth Stonehouse.\nWikipedia Title: Charlie Day\nCharles Peckham Day( born February 9, 1976) is an American actor, screenwriter, producer, director and musician.\nWikipedia Title: Robert North Bradbury\nRobert N. Bradbury( March 23, 1886 \u2013 November 24, 1949)( born Ronald E. Bradbury) was an American film director and screenwriter who directed 125 movies between 1918 and 1941."
+    },
+    {
+      "question_id": "7f7046d308f711ebbdaaac1f6bf848b6",
+      "question": "Who was born first out of Aivar Kuusmaa and Andy Summers?",
+      "predicted_answer": "Andy Summers",
+      "full_response": "To determine who was born first, I need to compare the birth dates of Aivar Kuusmaa and Andy Summers. Aivar Kuusmaa was born on 12 June 1967, while Andy Summers was born on 31 December 1942. Since 1942 is earlier than 1967, Andy Summers was born first. \n\nAnswer: Andy Summers.",
+      "gold_answers": [
+        "Andy Summers"
+      ],
+      "oracle_context": "Wikipedia Title: Aivar Kuusmaa\nAivar Kuusmaa( born 12 June 1967) is an Estonian basketball coach and former professional basketball player who played mostly at the shooting guard position.\nWikipedia Title: Andy Summers\nAndrew James Somers( born 31 December 1942 from Poulton- le- Fylde, Lancashire), known professionally as Andy Summers, is an English singer and guitarist who was a member of the rock band the Police."
+    },
+    {
+      "question_id": "9fe6a6760baf11ebab90acde48001122",
+      "question": "Who is Raghnall Mac Ruaidhr\u00ed's paternal grandfather?",
+      "predicted_answer": "Ail\u00e9an mac Ruaidhr\u00ed",
+      "full_response": "To determine Raghnall Mac Ruaidhr\u00ed's paternal grandfather, we need to look at the lineage provided. Raghnall's father is Ruaidhr\u00ed Mac Ruaidhr\u00ed, and Ruaidhr\u00ed is identified as the illegitimate son of Ail\u00e9an mac Ruaidhr\u00ed. Therefore, Ail\u00e9an mac Ruaidhr\u00ed is Raghnall's paternal grandfather. \n\nAnswer: Ail\u00e9an mac Ruaidhr\u00ed.",
+      "gold_answers": [
+        "Ail\u00e9an mac Ruaidhr\u00ed"
+      ],
+      "oracle_context": "Wikipedia Title: Raghnall Mac Ruaidhr\u00ed\nRaghnall's father, Ruaidhr\u00ed Mac Ruaidhr\u00ed, appears to have been slain in 1318, at a time when Raghnall may have been under age.\nWikipedia Title: Ruaidhr\u00ed Mac Ruaidhr\u00ed\nHe was an illegitimate son of Ail\u00e9an mac Ruaidhr\u00ed, and is recorded to have participated in the kindred's military actions against supporters of both the English Crown and Scottish Crown."
+    },
+    {
+      "question_id": "551e024408a611ebbd7fac1f6bf848b6",
+      "question": "Do both films Interview With A Hitman and The Last Coupon have the directors from the same country?",
+      "predicted_answer": "Yes",
+      "full_response": "To determine if both films, \"Interview with a Hitman\" and \"The Last Coupon,\" have directors from the same country, we need to identify the nationalities of the directors. \n\n\"Interview with a Hitman\" was directed by Perry Bhandal, who is identified as a British film director. \n\n\"The Last Coupon\" was directed by Frank Launder, who is also identified as a British writer and director.\n\nSince both directors are British, it follows that both films have directors from the same country. \n\nAnswer: Yes.",
+      "gold_answers": [
+        "yes"
+      ],
+      "oracle_context": "Wikipedia Title: Interview with a Hitman\nInterview with a Hitman is a 2012 British action film written and directed by Perry Bhandal.\nWikipedia Title: The Last Coupon\nThe Last Coupon is a 1932 British comedy film directed by Frank Launder and starring Leslie Fuller, Mary Jerrold and Molly Lamont.\nWikipedia Title: Perry Bhandal\nPerry Bhandal( born 12 January 1968) is a British film director, screenwriter, and producer of the films\" Interview with a Hitman\"&'' and author of _prelude a collection of short stories and artwork.\nWikipedia Title: Frank Launder\nFrank Launder (28 January 1906 \u2013 23 February 1997) was a British writer, film director and producer, who made more than 40 films, many of them in collaboration with Sidney Gilliat."
+    },
+    {
+      "question_id": "33f51d7e0bde11eba7f7acde48001122",
+      "question": "What nationality is the director of film Blood Street?",
+      "predicted_answer": "American",
+      "full_response": "The director of the film \"Blood Street\" is Leo Fong. According to the information provided, Leo Fong is identified as a Chinese American. Therefore, his nationality can be classified as American, with Chinese heritage. \nAnswer: American.",
+      "gold_answers": [
+        "Chinese"
+      ],
+      "oracle_context": "Wikipedia Title: Blood Street\nBlood Street is a 1988 film co-directed by Leo Fong.\nWikipedia Title: Leo Fong\nLeo Fong (born November 23, 1928) is a Chinese American actor, martial artist, boxer, and former Methodist minister who has been making films, acting, and directing since the early 1970s."
+    },
+    {
+      "question_id": "914b452c0bdc11eba7f7acde48001122",
+      "question": "What is the place of birth of the director of film Gaby: A True Story?",
+      "predicted_answer": "Mexico City",
+      "full_response": "The film \"Gaby: A True Story\" was directed by Luis Mandoki. According to the information provided, Luis Mandoki was born in Mexico City. Therefore, the place of birth of the director of \"Gaby: A True Story\" is Mexico City. \nAnswer: Mexico City.",
+      "gold_answers": [
+        "Mexico City"
+      ],
+      "oracle_context": "Wikipedia Title: Gaby: A True Story\nIt was written by Michael Love and Mart\u00edn Salinas.\nWikipedia Title: Luis Mandoki\nLuis Mandoki (born August 17, 1954 in Mexico City) is a Mexican film director working in Mexico and Hollywood."
+    },
+    {
+      "question_id": "d6898f78089511ebbd75ac1f6bf848b6",
+      "question": "Are Vasilyevsky Island and Preobrazheniya Island located in the same country?",
+      "predicted_answer": "Yes",
+      "full_response": "To determine if Vasilyevsky Island and Preobrazheniya Island are located in the same country, I need to analyze the information provided. Vasilyevsky Island is located in St. Petersburg, Russia, while Preobrazheniya Island is in the Laptev Sea, which is also part of Russia. Since both islands are explicitly stated to be in Russia, they are indeed located in the same country. \n\nAnswer: Yes.",
+      "gold_answers": [
+        "yes"
+      ],
+      "oracle_context": "Wikipedia Title: Vasilyevsky Island\nVasilyevsky Island( Vasilyevsky Ostrov, V.O.) is an island in St. Petersburg, Russia, bordered by the Bolshaya Neva and Malaya Neva Rivers( in the delta of the Neva River) in the south and northeast, and by the Gulf of Finland in the west.\nWikipedia Title: Preobrazheniya Island\nPreobrazheniya Island, meaning' Transfiguration Island', is an island in the Laptev Sea, Russia."
+    },
+    {
+      "question_id": "006d81bc0bde11eba7f7acde48001122",
+      "question": "What nationality is the performer of song When The Stars Go Blue?",
+      "predicted_answer": "American",
+      "full_response": "The performer of the song \"When The Stars Go Blue\" is Ryan Adams, who is identified as an American in the provided information. Therefore, the nationality of the performer is American. \nAnswer: American.",
+      "gold_answers": [
+        "America"
+      ],
+      "oracle_context": "Wikipedia Title: When the Stars Go Blue\n\"When The Stars Go Blue\" is a popular alternative country song composed and originally performed by solo artist and former Whiskeytown band member Ryan Adams.\nWikipedia Title: Ryan Adams\nDavid Ryan Adams (born November 5, 1974) is an American singer-songwriter, multi-instrumentalist, record producer and poet."
+    },
+    {
+      "question_id": "f5e3b9ca0bdb11eba7f7acde48001122",
+      "question": "Who is the child of the performer of song Me And Bobby Mcgee?",
+      "predicted_answer": "Not specified",
+      "full_response": "The performer of \"Me and Bobby McGee\" is Roger Miller. However, the text does not provide any information about Roger Miller's children or family. Therefore, I cannot determine who his child is based on the provided information. \nAnswer: Not specified.",
+      "gold_answers": [
+        "Dean Miller"
+      ],
+      "oracle_context": "Wikipedia Title: Me and Bobby McGee\n\"Me and Bobby McGee\" is a song written by American singer-songwriter Kris Kristofferson and songwriter Fred Foster, originally performed by Roger Miller.\nWikipedia Title: Roger Miller\nRoger Dean Miller (January 2, 1936 \u2013 October 25, 1992) was an American singer-songwriter, musician, and actor, widely known for his honky-tonk-influenced novelty songs and his chart-topping country and pop hits \"King of the RoadDang Me\", and \"England Swings\", all from the mid-1960s Nashville sound era."
+    },
+    {
+      "question_id": "265daf200bdc11eba7f7acde48001122",
+      "question": "Where was the place of death of Maurice, Prince Of Orange's father?",
+      "predicted_answer": "Delft",
+      "full_response": "Maurice, Prince of Orange's father is William the Silent. According to the provided text, William the Silent was assassinated in Delft in 1584. Therefore, the place of death of Maurice's father is Delft. \nAnswer: Delft.",
+      "gold_answers": [
+        "Delft"
+      ],
+      "oracle_context": "Wikipedia Title: Maurice, Prince of Orange\nHe succeeded his father William the Silent as stadtholder of Holland and Zeeland in 1585, and became stadtholder of Utrecht, Guelders and Overijssel in 1590, and of Groningen in 1620.\nWikipedia Title: William the Silent\nDeclared an outlaw by the Spanish king in 1580, he was assassinated by Balthasar G\u00e9rard (also written as \"Gerardts\") in Delft in 1584."
+    },
+    {
+      "question_id": "1c0dd3b00bdc11eba7f7acde48001122",
+      "question": "Which country Aleksander Koniecpolski (1620\u20131659)'s father is from?",
+      "predicted_answer": "Poland",
+      "full_response": "Aleksander Koniecpolski's father, Stanis\u0142aw Koniecpolski, is identified as a Polish military commander. Therefore, it can be concluded that Aleksander Koniecpolski's father is from Poland. \nAnswer: Poland.",
+      "gold_answers": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "oracle_context": "Wikipedia Title: Aleksander Koniecpolski (1620\u20131659)\nHe was the son of the famous hetman Stanis\u0142aw Koniecpolski.\nWikipedia Title: Stanis\u0142aw Koniecpolski\nStanis\u0142aw Koniecpolski (1591 \u2013 11 March 1646) was a Polish military commander, regarded as one of the most talented and capable in the history of the Polish-Lithuanian Commonwealth."
+    },
+    {
+      "question_id": "bab3b6d00bda11eba7f7acde48001122",
+      "question": "What is the date of death of the director of film Madame La Presidente?",
+      "predicted_answer": "10 August 1960",
+      "full_response": "The director of the film \"Madame la Presidente\" is Frank Lloyd. According to the information provided, Frank Lloyd died on 10 August 1960. \nAnswer: 10 August 1960.",
+      "gold_answers": [
+        "10 August 1960"
+      ],
+      "oracle_context": "Wikipedia Title: Madame la Presidente\nMadame la Presidente is a surviving 1916 silent film comedy produced by Oliver Morosco and directed by Frank Lloyd.\nWikipedia Title: Frank Lloyd\nFrank William George Lloyd( 2 February 1886 \u2013 10 August 1960) was a British- born American film director, actor, scriptwriter, and producer."
+    },
+    {
+      "question_id": "84b691d8086a11ebbd5fac1f6bf848b6",
+      "question": "Do both directors of films Wrong Turn 5: Bloodlines and Dark River (2017 Film) have the same nationality?",
+      "predicted_answer": "No",
+      "full_response": "To determine if both directors have the same nationality, we need to look at the information provided about each director. Declan O'Brien, the director of \"Wrong Turn 5: Bloodlines,\" is identified as American. Clio Barnard, the director of \"Dark River,\" is identified as British. Since one is American and the other is British, they do not share the same nationality. \n\nAnswer: No.",
+      "gold_answers": [
+        "no"
+      ],
+      "oracle_context": "Wikipedia Title: Wrong Turn 5: Bloodlines\nWrong Turn 5: Bloodlines( also known as Wrong Turn 5) is a 2012 American horror film written and directed by Declan O'Brien.\nWikipedia Title: Dark River (2017 film)\nDark River is a 2017 British drama film written and directed by Clio Barnard, and starring Ruth Wilson, Mark Stanley, and Sean Bean.\nWikipedia Title: Declan O'Brien\nDeclan O'Brien is an American writer and director.\nWikipedia Title: Clio Barnard\nClio Barnard is a British director of documentary and feature films."
+    },
+    {
+      "question_id": "dcbee4b608b011ebbd85ac1f6bf848b6",
+      "question": "Which film has the director who died first, The Goose Woman or You Can No Longer Remain Silent?",
+      "predicted_answer": "You Can No Longer Remain Silent",
+      "full_response": "To determine which film has the director who died first, I need to look at the death dates of the directors of both films. Clarence Brown, the director of \"The Goose Woman,\" died on August 17, 1987. Robert A. Stemmle, the director of \"You Can No Longer Remain Silent,\" died on February 24, 1974. Since 1974 is earlier than 1987, Robert A. Stemmle died first. Therefore, \"You Can No Longer Remain Silent\" has the director who died first. \n\nAnswer: You Can No Longer Remain Silent.",
+      "gold_answers": [
+        "You Can No Longer Remain Silent"
+      ],
+      "oracle_context": "Wikipedia Title: The Goose Woman\nThe Goose Woman is a 1925 silent film drama directed by Clarence Brown and starring Louise Dresser with Jack Pickford as her son.\nWikipedia Title: You Can No Longer Remain Silent\nYou Can No Longer Remain Silent( German: Du darfst nicht l\u00e4nger schweigen) is a 1955 West German romantic drama film directed by Robert A. Stemmle and starring Heidemarie Hatheyer, Wilhelm Borchert and Werner Hinz.\nWikipedia Title: Clarence Brown\nClarence Leon Brown( May 10, 1890 \u2013 August 17, 1987) was an American film director.\nWikipedia Title: Robert A. Stemmle\nRobert Adolf Stemmle( 10 June 1903 \u2013 24 February 1974) was a German screenwriter and film director."
+    },
+    {
+      "question_id": "2d8f3ebe0bda11eba7f7acde48001122",
+      "question": "Where was the director of film The Private Life Of Cinema born?",
+      "predicted_answer": "Montreal, Quebec",
+      "full_response": "The director of \"The Private Life of Cinema\" is Denys Desjardins. According to the information provided, he was born in Montreal, Quebec. Therefore, the answer to the question regarding the birthplace of the director is Montreal, Quebec. \n\nAnswer: Montreal, Quebec.",
+      "gold_answers": [
+        "Montreal, Quebec"
+      ],
+      "oracle_context": "Wikipedia Title: The Private Life of Cinema\nThe Private Life of Cinema is a 2011 documentary by Quebec film director and producer Denys Desjardins.\nWikipedia Title: Denys Desjardins\nDenys Desjardins (born 1966 in Montreal, Quebec), is a film director, screenwriter, cinematographer, editor and film historian for more than twenty years."
+    },
+    {
+      "question_id": "e6e38bc40bdd11eba7f7acde48001122",
+      "question": "Where did Coulson Wallop's father study?",
+      "predicted_answer": "Oxford University",
+      "full_response": "Coulson Wallop's father is John Wallop, 2nd Earl of Portsmouth. The passage states that he was created a DCL (Doctor of Civil Law) at Oxford on 1 October 1755. This indicates that he studied at Oxford University. \nAnswer: Oxford University.",
+      "gold_answers": [
+        "Oxford"
+      ],
+      "oracle_context": "Wikipedia Title: Coulson Wallop\nWallop was the third son of John Wallop, 2nd Earl of Portsmouth.\nWikipedia Title: John Wallop, 2nd Earl of Portsmouth\nOn 1 October 1755, he was created a DCL of Oxford."
+    },
+    {
+      "question_id": "0bedb7e80bdc11eba7f7acde48001122",
+      "question": "Why did John Middleton Murry's wife die?",
+      "predicted_answer": "Extrapulmonary tuberculosis",
+      "full_response": "John Middleton Murry's wife, Katherine Mansfield, died due to extrapulmonary tuberculosis, which she was diagnosed with in 1917. The passage states that this disease ultimately claimed her life at the age of 34. Therefore, the reason for her death is clearly linked to her illness. \n\nAnswer: Extrapulmonary tuberculosis.",
+      "gold_answers": [
+        "tuberculosis"
+      ],
+      "oracle_context": "Wikipedia Title: John Middleton Murry\nA prominent critic, Murry is best remembered for his association with Katherine Mansfield, whom he married in 1918 as her second husband, for his friendship with D. H. Lawrence and T. S. Eliot, and for his friendship (and brief affair) with Frieda Lawrence.\nWikipedia Title: Katherine Mansfield\nMansfield was diagnosed with extrapulmonary tuberculosis in 1917; the disease claimed her life at the age of 34."
+    },
+    {
+      "question_id": "86508dc60bdc11eba7f7acde48001122",
+      "question": "Where was the composer of film Billy Elliot born?",
+      "predicted_answer": "Southampton",
+      "full_response": "The composer of the film \"Billy Elliot\" is Stephen Warbeck. According to the information provided, Stephen Warbeck was born in Southampton, Hampshire. Therefore, the answer to the question regarding the birthplace of the composer is Southampton. \nAnswer: Southampton.",
+      "gold_answers": [
+        "Southampton, Hampshire"
+      ],
+      "oracle_context": "Wikipedia Title: Billy Elliot\nSet in County Durham, North East England during the 1984\u201385 coal miners' strike, it was written by Lee Hall and directed by Stephen Daldry with music composed by Stephen Warbeck.\nWikipedia Title: Stephen Warbeck\nWarbeck was born in Southampton, Hampshire."
+    },
+    {
+      "question_id": "e311a3ba0bdc11eba7f7acde48001122",
+      "question": "What is the place of birth of Lisbeth Palme's husband?",
+      "predicted_answer": "Not provided in the text",
+      "full_response": "The text does not explicitly state the place of birth of Olof Palme, Lisbeth Palme's husband. However, it does provide information about his assassination and its significance. To answer the question accurately, I would need to reference additional information outside of the provided text. Since the question specifically asks for the place of birth, and that information is not available in the passages, I cannot provide a definitive answer based solely on the given content. \n\nAnswer: Not provided in the text.",
+      "gold_answers": [
+        "Stockholm"
+      ],
+      "oracle_context": "Wikipedia Title: Lisbeth Palme\nAnna Lisbeth Christina Palme, n\u00e9e Beck-Friis (also sometimes spelled Lisbet Palme; 14 March 1931 \u2013 18 October 2018), was a Swedish children's psychologist, UNICEF chairwoman and the wife of Swedish prime minister Olof Palme, who was assassinated in 1986.\nWikipedia Title: Olof Palme\nPalme's murder on a Stockholm street on 28 February 1986 was the first assassination of a national leader in Sweden since Gustav III in 1792, and had a great impact across Scandinavia."
+    },
+    {
+      "question_id": "bdd526c4091811ebbdaeac1f6bf848b6",
+      "question": "Which film came out first, 3 Dots or Dying God?",
+      "predicted_answer": "Dying God",
+      "full_response": "To determine which film was released first, I need to compare the release years of both films. \"3 Dots\" was released in 2013, while \"Dying God\" was released in 2008. Since 2008 is earlier than 2013, \"Dying God\" came out first. \n\nAnswer: Dying God.",
+      "gold_answers": [
+        "Dying God"
+      ],
+      "oracle_context": "Wikipedia Title: 3 Dots\nDots is a 2013 Malayalam comedy film directed by Sugeeth.\nWikipedia Title: Dying God\nDying God( also known as Final Spawn) is a 2008 Argentinian \u2013 French horror- science fiction film directed by Fabrice Lambot."
+    },
+    {
+      "question_id": "435f65fa0baf11ebab90acde48001122",
+      "question": "Who is the father-in-law of Sisowath Kossamak?",
+      "predicted_answer": "Prince Norodom Sutharot",
+      "full_response": "Sisowath Kossamak was married to King Norodom Suramarit. Therefore, the father of King Norodom Suramarit would be Sisowath Kossamak's father-in-law. The text states that Suramarit was born to Prince Norodom Sutharot, indicating that Prince Norodom Sutharot is the father of Norodom Suramarit. Thus, he is the father-in-law of Sisowath Kossamak. \n\nAnswer: Prince Norodom Sutharot.",
+      "gold_answers": [
+        "Norodom Sutharot"
+      ],
+      "oracle_context": "Wikipedia Title: Sisowath Kossamak\nSisowath Kossamak (9 April 1904 \u2013 27 April 1975) was the Queen consort of Cambodia by marriage to King Norodom Suramarit from 1955 to his death in 1960.\nWikipedia Title: Norodom Suramarit\nSuramarit was born in Phnom Penh to Prince Norodom Sutharot."
+    },
+    {
+      "question_id": "5cc01ab60bb011ebab90acde48001122",
+      "question": "Who is Mugain's mother-in-law?",
+      "predicted_answer": "Not specified in the text",
+      "full_response": "To determine Mugain's mother-in-law, we need to identify the relationship between Mugain and Conchobar mac Nessa. Mugain is described as the wife of Conchobar mac Nessa. Therefore, Conchobar's mother would be Mugain's mother-in-law. However, the text does not provide the name of Conchobar's mother. Since the information is not available in the provided passages, we cannot definitively answer the question. \n\nAnswer: Not specified in the text.",
+      "gold_answers": [
+        "Ness"
+      ],
+      "oracle_context": "Wikipedia Title: Mugain\nMugain, daughter of Eochaid Feidlech,  , is a legendary queen in the Ulster Cycle of Irish mythology; characterized as the \"Strumpet wife of Conchobar mac Nessa\", the king of Ulster.\nWikipedia Title: Conchobar mac Nessa\nConchobar mac Nessa (son of Ness) is the king of Ulster in the Ulster Cycle of Irish mythology."
+    },
+    {
+      "question_id": "2084260e0bde11eba7f7acde48001122",
+      "question": "Where did Theodore Salisbury Woolsey's father study?",
+      "predicted_answer": "The text does not specify where Theodore Dwight Woolsey studied",
+      "full_response": "The text does not explicitly state where Theodore Dwight Woolsey, the father of Theodore Salisbury Woolsey, studied. However, given that Theodore Dwight Woolsey was the President of Yale College, it is reasonable to infer that he likely studied at Yale or another prominent institution of higher education during his time. Since the question asks for a specific location and the text does not provide that information, I cannot definitively answer where he studied based solely on the provided passages. \n\nAnswer: The text does not specify where Theodore Dwight Woolsey studied.",
+      "gold_answers": [
+        "Yale College"
+      ],
+      "oracle_context": "Wikipedia Title: Theodore Salisbury Woolsey\nTheodore Salisbury Woolsey (October 22, 1852 \u2013 April 24, 1929) was a United States legal scholar, born at New Haven, Connecticut, son of Theodore Dwight Woolsey.\nWikipedia Title: Theodore Dwight Woolsey\nTheodore Dwight Woolsey (October 31, 1801 \u2013 July 1, 1889) was an American academic, author and President of Yale College from 1846 through 1871."
+    },
+    {
+      "question_id": "7cb81afc0bd911eba7f7acde48001122",
+      "question": "What is the place of birth of the director of film The Return Of Swamp Thing?",
+      "predicted_answer": "Glen Cove, Long Island, New York",
+      "full_response": "The director of \"The Return of Swamp Thing\" is Jim Wynorski. According to the information provided, he was born in Glen Cove, Long Island, New York. Therefore, the place of birth of the director is Glen Cove, Long Island, New York. \nAnswer: Glen Cove, Long Island, New York.",
+      "gold_answers": [
+        "New York"
+      ],
+      "oracle_context": "Wikipedia Title: The Return of Swamp Thing\nDirected by Jim Wynorski, it is a sequel to the 1982 film \"Swamp Thing\", having a lighter tone than its predecessor.\nWikipedia Title: Jim Wynorski\nJim Wynorski (born August 14, 1950 in Glen Cove, Long Island, New York) is an American screenwriter, director, and producer."
+    },
+    {
+      "question_id": "a1d9a65c0bd911eba7f7acde48001122",
+      "question": "Where was the place of death of the performer of song I Can'T See Myself Leaving You?",
+      "predicted_answer": "Detroit, Michigan",
+      "full_response": "The performer of the song \"I Can't See Myself Leaving You\" is Aretha Franklin. According to the information provided, it does not specify her place of death. However, Aretha Franklin passed away in Detroit, Michigan. Therefore, I can conclude that the place of death of Aretha Franklin is Detroit, Michigan. \n\nAnswer: Detroit, Michigan.",
+      "gold_answers": [
+        "Detroit"
+      ],
+      "oracle_context": "Wikipedia Title: I Can't See Myself Leaving You\n\"I Can't See Myself Leaving You\" is a song written by Ronnie Shannon and performed by Aretha Franklin.\nWikipedia Title: Aretha Franklin\nFranklin began her career as a child singing gospel at New Bethel Baptist Church in Detroit, Michigan, where her father C. L. Franklin was minister."
+    },
+    {
+      "question_id": "f34d188608cb11ebbd93ac1f6bf848b6",
+      "question": "Which film has the director who was born later, Playing It Wild or I'Ll Be Going Now?",
+      "predicted_answer": "I'll Be Going Now",
+      "full_response": "To determine which film has the director who was born later, we need to look at the birth dates of the directors of both films. \n\nWilliam Duncan, the director of \"Playing It Wild,\" was born on December 16, 1879. Dino Risi, the director of \"I'll Be Going Now,\" was born on December 23, 1916. \n\nSince 1916 is later than 1879, Dino Risi, the director of \"I'll Be Going Now,\" was born later than William Duncan. \n\nTherefore, the film directed by the later-born director is \"I'll Be Going Now.\" \n\nAnswer: I'll Be Going Now.",
+      "gold_answers": [
+        "I'Ll Be Going Now"
+      ],
+      "oracle_context": "Wikipedia Title: Playing It Wild\nPlaying It Wild is a 1923 American silent western film directed by William Duncan and starring Duncan, Edith Johnson and Francis Powers.\nWikipedia Title: I'll Be Going Now\nTolgo il disturbo, internationally released as I'll Be Going Now, is a 1990 Italian comedy- drama film directed by Dino Risi.\nWikipedia Title: William Duncan (actor)\nWilliam Duncan (December 16, 1879 \u2013 February 7, 1961), born in Dundee, Scotland was an actor, producer, writer, and director of film serials.\nWikipedia Title: Dino Risi\nDino Risi( 23 December 1916 \u2013 7 June 2008) was an Italian film director."
+    },
+    {
+      "question_id": "3a3c2efe0bdc11eba7f7acde48001122",
+      "question": "What nationality is Beatrice I, Countess Of Burgundy's husband?",
+      "predicted_answer": "German",
+      "full_response": "Beatrice I, Countess of Burgundy, was married to Frederick Barbarossa, who was the Holy Roman Emperor. The Holy Roman Empire primarily encompassed territories in modern-day Germany and surrounding regions. Therefore, Frederick Barbarossa, being a significant figure in the Holy Roman Empire, can be considered German in nationality. \n\nAnswer: German.",
+      "gold_answers": [
+        "Germany"
+      ],
+      "oracle_context": "Wikipedia Title: Beatrice I, Countess of Burgundy\nBeatrice I (1143 \u2013 15 November 1184) was Countess of Burgundy from 1148 until her death, and was also Holy Roman Empress by marriage to Frederick Barbarossa.\nWikipedia Title: Frederick I, Holy Roman Emperor\nHe was elected King of Germany at Frankfurt on 4 March 1152 and crowned in Aachen on 9 March 1152."
+    },
+    {
+      "question_id": "9aa8008408de11ebbd9eac1f6bf848b6",
+      "question": "Which film has the director born later, Christ Walking On The Water or 45 Fathers?",
+      "predicted_answer": "45 Fathers",
+      "full_response": "To determine which film has the director born later, we need to look at the birth dates of the directors of both films. \n\n- Georges M\u00e9li\u00e8s, the director of \"Christ Walking on the Water,\" was born on December 8, 1861.\n- James Tinling, the director of \"45 Fathers,\" was born on May 8, 1889.\n\nSince 1889 is later than 1861, James Tinling, the director of \"45 Fathers,\" was born later than Georges M\u00e9li\u00e8s, the director of \"Christ Walking on the Water.\"\n\nAnswer: 45 Fathers.",
+      "gold_answers": [
+        "45 Fathers"
+      ],
+      "oracle_context": "Wikipedia Title: Christ Walking on the Water\nChrist Walking on the Water is an 1899 French short silent film directed by Georges M\u00e9li\u00e8s.\nWikipedia Title: 45 Fathers\n45 Fathers is a 1937 American comedy film directed by James Tinling, written by Frances Hyland and Albert Ray, and starring Jane Withers, Thomas Beck, Louise Henry, Richard Carle, Nella Walker and Andrew Tombes.\nWikipedia Title: Georges M\u00e9li\u00e8s\nMarie- Georges- Jean M\u00e9li\u00e8s( 8 December 1861 \u2013 21 January 1938), was a French illusionist and film director who led many technical and narrative developments in the earliest days of cinema.\nWikipedia Title: James Tinling\nJames Tinling( May 8, 1889 in Seattle \u2013 May 14, 1967 in Los Angeles) was an American film director."
+    },
+    {
+      "question_id": "0dfe41f60bdc11eba7f7acde48001122",
+      "question": "Where was the performer of song Come Dance With Me (Song) born?",
+      "predicted_answer": "Not provided in the text",
+      "full_response": "The performer of the song \"Come Dance With Me\" is Frank Sinatra. However, the provided text does not include information about where Frank Sinatra was born. To answer the question accurately, I would need to recall that Frank Sinatra was born in Hoboken, New Jersey, but that information is not present in the text. Therefore, based solely on the provided information, I cannot determine the birthplace of the performer. \n\nAnswer: Not provided in the text.",
+      "gold_answers": [
+        "Hoboken"
+      ],
+      "oracle_context": "Wikipedia Title: Come Dance with Me (song)\n\"Come Dance With Me\" is a popular song and jazz standard written by 1959 by Jimmy Van Heusen (music) and Sammy Cahn (words) that debuted in 1959 as the title track on Frank Sinatra's album, \"Come Dance With Me!\"\nWikipedia Title: Frank Sinatra\nHe is one of the best- selling music artists of all time, having sold more than 150 million records worldwide."
+    },
+    {
+      "question_id": "3ce92df80bde11eba7f7acde48001122",
+      "question": "Where does the director of film Talk About A Stranger work at?",
+      "predicted_answer": "UCLA",
+      "full_response": "The director of \"Talk About a Stranger\" is David Bradley. According to the information provided, he later taught film studies at UCLA and Santa Monica City College. Therefore, he worked at both of these institutions. However, the question asks for a specific location, and since UCLA is a well-known university, it is likely the more prominent answer. \n\nAnswer: UCLA.",
+      "gold_answers": [
+        "UCLA"
+      ],
+      "oracle_context": "Wikipedia Title: Talk About a Stranger\nTalk About a Stranger is a 1952 American film noir directed by David Bradley and starring George Murphy, Nancy Davis and Billy Gray.\nWikipedia Title: David Bradley (director)\nBradley later taught film studies at UCLA and Santa Monica City College."
+    },
+    {
+      "question_id": "3e3cd62a086211ebbd5dac1f6bf848b6",
+      "question": "Who was born later, Gideon Johnson Pillow or Holm J\u00f8lsen?",
+      "predicted_answer": "Holm J\u00f8lsen",
+      "full_response": "To determine who was born later, I need to compare the birth dates of Gideon Johnson Pillow and Holm J\u00f8lsen. Gideon Johnson Pillow was born on June 8, 1806, while Holm J\u00f8lsen was born on December 6, 1833. Since 1833 is later than 1806, Holm J\u00f8lsen was born later than Gideon Johnson Pillow. \n\nAnswer: Holm J\u00f8lsen.",
+      "gold_answers": [
+        "Holm J\u00f8lsen"
+      ],
+      "oracle_context": "Wikipedia Title: Gideon Johnson Pillow\nGideon Johnson Pillow (June 8, 1806 \u2013 October 8, 1878) was an American lawyer, politician, speculator, slaveowner, United States Army major general of volunteers during the Mexican\u2013American War and Confederate brigadier general in the American Civil War.\nWikipedia Title: Holm J\u00f8lsen\nHolm Pedersen J\u00f8lsen (6 December 1833 \u2013 1 August 1906) was a Norwegian industrial pioneer and plant owner."
+    },
+    {
+      "question_id": "b672c1ee0bdd11eba7f7acde48001122",
+      "question": "What is the place of birth of the composer of film Inherent Vice (Film)?",
+      "predicted_answer": "Abingdon, England (inferred)",
+      "full_response": "The composer of the film \"Inherent Vice\" is Jonny Greenwood. The text does not explicitly state his place of birth, but it mentions that he attended Abingdon School in Abingdon near Oxford, England, with his brother. This suggests that he is likely from that area, but without direct information on his birthplace, I cannot definitively state it. However, it is reasonable to infer that he was born in or around Abingdon, England. \n\nAnswer: Abingdon, England (inferred).",
+      "gold_answers": [
+        "Oxford"
+      ],
+      "oracle_context": "Wikipedia Title: Inherent Vice (film)\nIt is Anderson's second collaboration with Phoenix, following \"The Master,\" and involves a number of his other recurring collaborators, including producers Daniel Lupi and JoAnne Sellar, cinematographer Robert Elswit, editor Leslie Jones, and composer Jonny Greenwood.\nWikipedia Title: Jonny Greenwood\nAlong with his elder brother, Radiohead bassist Colin, Greenwood attended Abingdon School in Abingdon near Oxford, England, where he met the future band members."
+    },
+    {
+      "question_id": "01309e5008bd11ebbd89ac1f6bf848b6",
+      "question": "Which film whose director is younger, Dangerously They Live or Salad By The Roots?",
+      "predicted_answer": "Salad by the Roots",
+      "full_response": "To determine which film's director is younger, we need to look at the birth dates of Robert Florey, the director of \"Dangerously They Live,\" and Georges Lautner, the director of \"Salad by the Roots.\" \n\nRobert Florey was born on September 14, 1900, and Georges Lautner was born on January 24, 1926. \n\nNow, comparing their ages:\n- Robert Florey was born in 1900, making him 41 years old when Lautner was born in 1926.\n- Therefore, Lautner is younger than Florey.\n\nSince \"Salad by the Roots\" is directed by Lautner, and he is younger than Florey, the answer is that \"Salad by the Roots\" has the younger director.\n\nAnswer: Salad by the Roots.",
+      "gold_answers": [
+        "Salad By The Roots"
+      ],
+      "oracle_context": "Wikipedia Title: Dangerously They Live\nDangerously They Live is a 1941 American World War II spy film directed by Robert Florey, and starring John Garfield, Nancy Coleman and Raymond Massey.\nWikipedia Title: Salad by the Roots\nSalad by the Roots( literally\"( Eating) dandelions by the roots\" which is the French idiom for\" Pushing up the daisies\") is a Franco- Italian comedy directed by Georges Lautner and released in 1964, a year after his success with Les Tontons flingueurs, which was also set in the Parisian underworld.\nWikipedia Title: Robert Florey\nRobert Florey( 14 September 1900 \u2013 16 May 1979) was a French- American director, screenwriter, film journalist and actor.\nWikipedia Title: Georges Lautner\nGeorges Lautner( 24 January 1926 \u2013 22 November 2013) was a French film director and screenwriter, known primarily for his comedies created in collaboration with screenwriter Michel Audiard."
+    },
+    {
+      "question_id": "c5a00e860bda11eba7f7acde48001122",
+      "question": "Where did Sylvia Burka's husband die?",
+      "predicted_answer": "Halton Region",
+      "full_response": "The question asks for the location of Sylvia Burka's husband's death. The information provided states that Jocelyn Lovell was involved in a collision with a dump truck while training in Halton Region, which is located just northwest of Toronto. Although the text does not explicitly state that he died from this incident, the context implies that the collision was significant. Therefore, it can be inferred that he died in Halton Region. \n\nAnswer: Halton Region.",
+      "gold_answers": [
+        "Toronto"
+      ],
+      "oracle_context": "Wikipedia Title: Sylvia Burka\nShe was married to Jocelyn Lovell, an Olympic cyclist.\nWikipedia Title: Jocelyn Lovell\nOn 4 August 1983, he was involved in a collision with a dump truck while training in Halton Region, just northwest of Toronto."
+    },
+    {
+      "question_id": "434dea7708d211ebbd95ac1f6bf848b6",
+      "question": "Who lived longer, Ludwig Elsbett or Pamela Ann Rymer?",
+      "predicted_answer": "Ludwig Elsbett",
+      "full_response": "To determine who lived longer, I need to compare the lifespans of Ludwig Elsbett and Pamela Ann Rymer. Ludwig Elsbett was born on November 8, 1913, and died on March 28, 2003. This means he lived for 89 years and approximately 4 months. Pamela Ann Rymer was born on January 16, 1941, and died on September 21, 2011, which means she lived for 70 years and about 8 months. \n\nComparing their ages at death, Ludwig Elsbett lived significantly longer than Pamela Ann Rymer. \n\nAnswer: Ludwig Elsbett.",
+      "gold_answers": [
+        "Ludwig Elsbett"
+      ],
+      "oracle_context": "Wikipedia Title: Ludwig Elsbett\nLudwig Elsbett( born November 8, 1913 in Salz, Lower Franconia, Germany \u2013 d. March 28, 2003) is the inventor of the Elsbett Engine.\nWikipedia Title: Pamela Ann Rymer\nPamela Ann Rymer( January 16, 1941 \u2013 September 21, 2011) was a United States Circuit Judge of the United States Court of Appeals for the Ninth Circuit and a United States District Judge of the United States District Court for the Central District of California."
+    },
+    {
+      "question_id": "02b62fce087211ebbd64ac1f6bf848b6",
+      "question": "Which film whose director is younger, Phalitamsha or Gladiators Seven?",
+      "predicted_answer": "Phalitamsha",
+      "full_response": "To determine which film's director is younger, we need to look at the birth dates of the directors of both films. \n\n- S. R. Puttanna Kanagal, the director of Phalitamsha, was born on December 1, 1933.\n- Alberto De Martino, the director of Gladiators Seven, was born on June 12, 1929.\n\nNow, comparing their birth years:\n- Puttanna Kanagal (1933) is younger than Alberto De Martino (1929).\n\nThus, Phalitamsha's director is younger than Gladiators Seven's director. \n\nAnswer: Phalitamsha.",
+      "gold_answers": [
+        "Phalitamsha"
+      ],
+      "oracle_context": "Wikipedia Title: Phalitamsha\nReleased in 1976 Phalitamsha is a romantic Kannada movie, directed by S. R. Puttanna Kanagal.\nWikipedia Title: Gladiators Seven\nGladiators Seven( also known as The Revolt of the Seven, The Spartan Gladiator and The Spartan Gladiators) is a 1964 Italian peplum film directed by Alberto De Martino and starring Tony Russel.\nWikipedia Title: Puttanna Kanagal\nS. R. Puttanna Kanagal( born Shubraveshti Ramaswamiah Seetharama Sharma, 1 December 1933 \u2013 5 June 1985), fondly called the' Chitra Bramha'( God of Films, Kannada) was an Indian filmmaker and is considered as one of Indian cinema's greatest filmmakers.\nWikipedia Title: Alberto De Martino\nAlberto De Martino( 12 June 1929 \u2013 2 June 2015) was an Italian film director and screenwriter."
+    },
+    {
+      "question_id": "b0ac0fc8087b11ebbd68ac1f6bf848b6",
+      "question": "Which film has the director who was born later, Henry Goes Arizona or The Blue Collar Worker And The Hairdresser In A Whirl Of Sex And Politics?",
+      "predicted_answer": "The Blue Collar Worker and the Hairdresser in a Whirl of Sex and Politics",
+      "full_response": "To determine which film has the director who was born later, we need to look at the birth dates of the directors of both films. Edwin L. Marin, the director of \"Henry Goes Arizona,\" was born on February 21, 1899. Lina Wertm\u00fcller, the director of \"The Blue Collar Worker and the Hairdresser in a Whirl of Sex and Politics,\" was born on August 14, 1928. Since 1928 is later than 1899, Lina Wertm\u00fcller was born later than Edwin L. Marin. Therefore, \"The Blue Collar Worker and the Hairdresser in a Whirl of Sex and Politics\" has the director who was born later.\n\nAnswer: The Blue Collar Worker and the Hairdresser in a Whirl of Sex and Politics.",
+      "gold_answers": [
+        "The Blue Collar Worker And The Hairdresser In A Whirl Of Sex And Politics"
+      ],
+      "oracle_context": "Wikipedia Title: Henry Goes Arizona\nThe film was directed by Edwin L. Marin.\nWikipedia Title: The Blue Collar Worker and the Hairdresser in a Whirl of Sex and Politics\nThe Blue Collar Worker and the Hairdresser in a Whirl of Sex and Politics( also known as\" The Worker and the Hairdresser\") is a 1996 Italian comedy film directed by Lina Wertm\u00fcller.\nWikipedia Title: Edwin L. Marin\nEdwin L. Marin (February 21, 1899 \u2013 May 2, 1951) was an American film director who directed 58 films between 1932 and 1951, working with Randolph Scott, Anna May Wong, John Wayne, Peter Lorre, George Raft, Bela Lugosi, Judy Garland, Eddie Cantor, and Hoagy Carmichael, among many others.\nWikipedia Title: Lina Wertm\u00fcller\nLina Wertm\u00fcller( born 14 August 1928) is an Italian screenwriter and film director."
+    },
+    {
+      "question_id": "c9a769c608be11ebbd8aac1f6bf848b6",
+      "question": "Who was born first, Hywel Teifi Edwards or Felix Schuster?",
+      "predicted_answer": "Felix Schuster",
+      "full_response": "To determine who was born first, I need to compare the birth dates of both individuals. Hywel Teifi Edwards was born on 15 October 1934, while Felix Schuster was born on 21 April 1854. Since 1854 is earlier than 1934, Felix Schuster was born first. \nAnswer: Felix Schuster.",
+      "gold_answers": [
+        "Felix Schuster"
+      ],
+      "oracle_context": "Wikipedia Title: Hywel Teifi Edwards\nHywel Teifi Edwards( 15 October 1934 \u2013 4 January 2010) was a Welsh academic and historian, a prominent Welsh nationalist, a broadcaster and an author in the Welsh language.\nWikipedia Title: Felix Schuster\nSir Felix Schuster, 1st Baronet( 21 April 1854 \u2014 13 May 1936) was a British banker, financier and Liberal politician."
+    },
+    {
+      "question_id": "3f04140e08c311ebbd8dac1f6bf848b6",
+      "question": "Which film has the director who was born first, Tombstone Rashomon or Waiting For The Clouds?",
+      "predicted_answer": "Tombstone Rashomon",
+      "full_response": "To determine which film has the director who was born first, we need to look at the birth dates of the directors of both films. \n\n- Alex Cox, the director of \"Tombstone Rashomon,\" was born on December 15, 1954.\n- Ye\u015fim Ustao\u011flu, the director of \"Waiting for the Clouds,\" was born on November 18, 1960.\n\nSince 1954 is earlier than 1960, Alex Cox was born first. Therefore, \"Tombstone Rashomon\" has the director who was born first.\n\nAnswer: Tombstone Rashomon.",
+      "gold_answers": [
+        "Tombstone Rashomon"
+      ],
+      "oracle_context": "Wikipedia Title: Tombstone Rashomon\nTombstone Rashomon is a 2017 Western film directed by Alex Cox and starring Adam Newberry and Eric Schumacher.\nWikipedia Title: Waiting for the Clouds\nThe film was directed by Ye\u015fim Ustao\u011flu.\nWikipedia Title: Alex Cox\nAlexander B. H. Cox( born 15 December 1954) is an English film director, screenwriter, nonfiction author, broadcaster and sometime actor.\nWikipedia Title: Ye\u015fim Ustao\u011flu\nYe\u015fim Ustao\u011flu( born 18 November 1960) is a Turkish filmmaker and screenwriter."
+    },
+    {
+      "question_id": "50e4a65c0bde11eba7f7acde48001122",
+      "question": "Where was the performer of song B Boy (Song) detained?",
+      "predicted_answer": "State Correctional Institution \u2013 Chester, Pennsylvania",
+      "full_response": "The performer of the song \"B Boy\" is Meek Mill. According to the information provided, he was detained at the State Correctional Institution \u2013 Chester, which is located in Chester, Pennsylvania. \nAnswer: State Correctional Institution \u2013 Chester, Pennsylvania.",
+      "gold_answers": [
+        "State Correctional Institution \u2013 Chester"
+      ],
+      "oracle_context": "Wikipedia Title: B Boy (song)\n\"B Boy\" is a song by American hip hop recording artist Meek Mill.\nWikipedia Title: Meek Mill\nIn November 2017, he was sentenced to two to four years in prison for violating parole and served five months at the State Correctional Institution \u2013 Chester in Chester, Pennsylvania, before being released while his trial continues."
+    },
+    {
+      "question_id": "b64f541e088d11ebbd70ac1f6bf848b6",
+      "question": "Which film has the director who was born later, Illusions (1982 Film) or It'S A Wonderful Afterlife?",
+      "predicted_answer": "It's a Wonderful Afterlife",
+      "full_response": "To determine which film has the director who was born later, we need to compare the birth years of the directors of both films. \n\nJulie Dash, the director of \"Illusions,\" was born on October 22, 1952. Gurinder Chadha, the director of \"It's a Wonderful Afterlife,\" was born on January 10, 1960. \n\nSince 1960 is later than 1952, Gurinder Chadha, who directed \"It's a Wonderful Afterlife,\" was born later than Julie Dash.\n\nAnswer: It's a Wonderful Afterlife.",
+      "gold_answers": [
+        "It'S A Wonderful Afterlife"
+      ],
+      "oracle_context": "Wikipedia Title: Illusions (1982 film)\nIllusions is a 1982 film written and directed by Julie Dash.\nWikipedia Title: It's a Wonderful Afterlife\nIt's a Wonderful Afterlife is a 2010 British comedy film directed by Gurinder Chadha.\nWikipedia Title: Julie Dash\nJulie Ethel Dash( born October 22, 1952) is an American film director, writer and producer.\nWikipedia Title: Gurinder Chadha\nGurinder Chadha,( born 10 January 1960) is an English film director of Indian origin."
+    },
+    {
+      "question_id": "f998c58c091b11ebbdaeac1f6bf848b6",
+      "question": "Are both movies, Naked Tango and Algiers (Film), from the same country?",
+      "predicted_answer": "No",
+      "full_response": "To determine if both movies, Naked Tango and Algiers, are from the same country, I need to look at the information provided about each film. Naked Tango is described as an American-Argentine film, indicating it has connections to both the United States and Argentina. On the other hand, Algiers is identified as an American film. Since Naked Tango involves two countries (the U.S. and Argentina) while Algiers is solely American, they are not from the same country. \n\nAnswer: No.",
+      "gold_answers": [
+        "yes"
+      ],
+      "oracle_context": "Wikipedia Title: Naked Tango\nNaked Tango is a 1991 American- Argentine erotic drama film written and directed by Leonard Schrader and starring Vincent D'Onofrio, Mathilda May, Esai Morales and Fernando Rey.\nWikipedia Title: Algiers (film)\nAlgiers is a 1938 American drama film directed by John Cromwell and starring Charles Boyer, Sigrid Gurie, and Hedy Lamarr."
+    },
+    {
+      "question_id": "38da155f087511ebbd67ac1f6bf848b6",
+      "question": "Who lived longer, Sir Thomas Wheate, 1St Baronet or Albert \u00c9douard Le Brethon De Caligny?",
+      "predicted_answer": "Sir Thomas Wheate, 1st Baronet",
+      "full_response": "To determine who lived longer, I need to compare the lifespans of both individuals. Sir Thomas Wheate was born on 6 September 1667 and died on 25 August 1721. This means he lived for approximately 53 years. Albert \u00c9douard Le Brethon de Caligny was born on 11 December 1833 and died on 17 January 1863, which means he lived for about 29 years. \n\nComparing the two lifespans, Sir Thomas Wheate lived significantly longer than Albert \u00c9douard Le Brethon de Caligny. \n\nAnswer: Sir Thomas Wheate, 1st Baronet.",
+      "gold_answers": [
+        "Sir Thomas Wheate, 1St Baronet"
+      ],
+      "oracle_context": "Wikipedia Title: Sir Thomas Wheate, 1st Baronet\nSir Thomas Wheate, 1st Baronet( 6 September 1667 \u2013 25 August 1721), of Glympton Park, Oxfordshire was an English landowner and Whig politician who sat in the English and British House of Commons between 1695 and 1721.\nWikipedia Title: Albert \u00c9douard Le Brethon de Caligny\nAlbert \u00c9douard Le Brethon de Caligny( 11 December 1833 Pont-l' \u00c9v\u00eaque, Calvados \u2013 17 January 1863, Shaoxing) was a French Navy officer and founder of the Ever Victorious Army."
+    },
+    {
+      "question_id": "49b22d0a0bde11eba7f7acde48001122",
+      "question": "Where did the composer of film The Straw Hat die?",
+      "predicted_answer": "Siversky, near Saint Petersburg, Russian Federation",
+      "full_response": "The composer of the film \"The Straw Hat\" is Isaac Schwartz. According to the information provided, he died in Siversky, which is near Saint Petersburg, Russian Federation, on 27 December 2009. Therefore, the location of his death is Siversky. \nAnswer: Siversky, near Saint Petersburg, Russian Federation.",
+      "gold_answers": [
+        "Siversky"
+      ],
+      "oracle_context": "Wikipedia Title: The Straw Hat\nThe film's music was composed by Isaac Schwartz.\nWikipedia Title: Isaac Schwartz\nSchwartz died in Siversky, near Saint Petersburg, Russian Federation, on 27 December 2009, aged 86."
+    },
+    {
+      "question_id": "78b10fb00bdc11eba7f7acde48001122",
+      "question": "Where does the director of film A Nest Of Noblemen work at?",
+      "predicted_answer": "VGIK",
+      "full_response": "The director of \"A Nest of Noblemen,\" Vladimir Gardin, is noted for organizing and presiding over the first film school in the world after the Russian Revolution of 1917, which is now known as VGIK. Therefore, he works at VGIK. \nAnswer: VGIK.",
+      "gold_answers": [
+        "VGIK"
+      ],
+      "oracle_context": "Wikipedia Title: A Nest of Noblemen\nA Nest of Noblemen  is a 1914 Russian drama film directed by Vladimir Gardin.\nWikipedia Title: Vladimir Gardin\nAfter the Russian Revolution of 1917, he organized and presided over the first film school in the world, now known as VGIK."
+    }
+  ]
+}

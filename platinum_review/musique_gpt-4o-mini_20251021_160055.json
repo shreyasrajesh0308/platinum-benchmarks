@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "dataset_name": "musique",
+    "model_name": "gpt-4o-mini",
+    "num_questions": 10,
+    "timestamp": "2025-10-21T16:00:55.632012",
+    "num_correct": 0,
+    "num_incorrect": 10
+  },
+  "review_instructions": {
+    "status_options": [
+      "verified",
+      "revised",
+      "rejected",
+      "pending"
+    ],
+    "verified": "Gold answer is correct, model made an error",
+    "revised": "Need to add alternative valid answers to platinum_target",
+    "rejected": "Question is unanswerable/ambiguous/gold is wrong",
+    "platinum_target_note": "List of all acceptable answers (null for rejected)"
+  },
+  "questions": [
+    {
+      "question_id": "q_0",
+      "question": "When was the person who Messi's goals in Copa del Rey compared to get signed by Barcelona?",
+      "gold_answers": [
+        "June 1982"
+      ],
+      "predicted_answer": "The information is not provided in the text.",
+      "full_response": "The question refers to a specific event regarding Messi's goals in the Copa del Rey and a comparison that led to his signing by Barcelona. However, the provided text does not contain any information about Messi, his goals, or the timeline of his signing with Barcelona. Therefore, I cannot determine the date or context of the comparison based on the given passages. \n\nAnswer: The information is not provided in the text.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_1",
+      "question": "What month did the Tripartite discussions begin between Britain, France, and the country where, despite being headquartered in the nation called the nobilities commonwealth, the top-ranking Warsaw Pact operatives originated?",
+      "gold_answers": [
+        "mid-June"
+      ],
+      "predicted_answer": "The month is not specified in the provided information.",
+      "full_response": "The question refers to the Tripartite discussions involving Britain, France, and a country associated with the Warsaw Pact. The Warsaw Pact was a collective defense treaty among the Soviet Union and its Eastern Bloc allies. The \"nobilities commonwealth\" likely refers to Poland, as it was historically known for its nobility and was a member of the Warsaw Pact. The top-ranking operatives of the Warsaw Pact would have originated from the Soviet Union, which was the leading country in the pact. \n\nHowever, the question specifically asks for the month the Tripartite discussions began, which is not provided in the text. Therefore, I cannot determine the exact month from the information given.\n\nAnswer: The month is not specified in the provided information.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_2",
+      "question": "What county is Erik Hort's birthplace a part of?",
+      "gold_answers": [
+        "Rockland County"
+      ],
+      "predicted_answer": "Not available.",
+      "full_response": "The text provided does not mention Erik Hort or his birthplace, so I cannot determine the county related to Erik Hort's birthplace based on the information given. \nAnswer: Not available.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_3",
+      "question": "What year did the publisher of Labyrinth end?",
+      "gold_answers": [
+        "1986"
+      ],
+      "predicted_answer": "Not provided in the text.",
+      "full_response": "The text provided does not mention anything about a publisher or a work titled \"Labyrinth.\" Therefore, I cannot determine the year the publisher of Labyrinth ended based on the information given. \nAnswer: Not provided in the text.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_4",
+      "question": "When was Lady Godiva's birthplace abolished?",
+      "gold_answers": [
+        "918"
+      ],
+      "predicted_answer": "Not applicable (no specific date for \"abolishment\").",
+      "full_response": "Lady Godiva is traditionally associated with Coventry, England. The city of Coventry was granted city status in 1451, but it is not clear what is meant by \"abolished\" in this context. If the question refers to the historical significance or the status of Coventry as a city, there is no specific date for an \"abolishment\" of her birthplace. Therefore, without additional context or clarification, it is difficult to provide a definitive answer. \n\nAnswer: Not applicable (no specific date for \"abolishment\").",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_5",
+      "question": "When was the region immediately north of the region where Israel is located and the location of the Battle of Qurah and Umm al Maradim created?",
+      "gold_answers": [
+        "1930"
+      ],
+      "predicted_answer": "Insufficient information to determine the date.",
+      "full_response": "The question refers to a specific region north of Israel, which is likely to be Lebanon or Syria, but it does not provide a specific date for the creation of this region. The Battle of Qurah and Umm al Maradim is not mentioned in the provided text, and without additional context or historical information, I cannot determine the creation date of the region in question. Therefore, I cannot provide a definitive answer based on the information given. \n\nAnswer: Insufficient information to determine the date.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_6",
+      "question": "Where does the body of water by the city where the Southeast Library designer died empty into the Gulf of Mexico?",
+      "gold_answers": [
+        "the Mississippi River Delta"
+      ],
+      "predicted_answer": "The information is not provided in the text.",
+      "full_response": "To answer the question, I need to identify the city where the Southeast Library designer died and the body of water associated with that city. However, the provided text does not mention any details about a Southeast Library designer or a specific city related to that context. Therefore, I cannot determine the body of water or its relation to the Gulf of Mexico based on the information given. \n\nAnswer: The information is not provided in the text.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_7",
+      "question": "When did the explorer reach the city where the headquarters of the only group larger than Vilaiyaadu Mankatha's record label is located?",
+      "gold_answers": [
+        "August 3, 1769"
+      ],
+      "predicted_answer": "The information is not available in the provided text.",
+      "full_response": "The question refers to an explorer reaching a city where the headquarters of a group larger than Vilaiyaadu Mankatha's record label is located. However, the provided text does not contain any information about explorers, cities, or record labels, including Vilaiyaadu Mankatha. Therefore, I cannot determine the date or any relevant details regarding the explorer or the city in question based on the given passages. \n\nAnswer: The information is not available in the provided text.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_8",
+      "question": "When was the start of the battle of the birthplace of the performer of III?",
+      "gold_answers": [
+        "December 14, 1814"
+      ],
+      "predicted_answer": "Not available in the text.",
+      "full_response": "The passage does not provide any information about a performer of \"III\" or any battles related to a birthplace. Therefore, I cannot determine the date of the start of such a battle based on the provided text. \nAnswer: Not available in the text.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    },
+    {
+      "question_id": "q_9",
+      "question": "What is the Till dom ensamma performer's birth date?",
+      "gold_answers": [
+        "11 September 1962"
+      ],
+      "predicted_answer": "Not available in the provided text.",
+      "full_response": "The text provided does not mention \"Till dom ensamma\" or any performer associated with it, nor does it provide any birth dates. Therefore, I cannot determine the birth date of the performer in question. \nAnswer: Not available in the provided text.",
+      "oracle_context": "",
+      "supporting_facts": [],
+      "is_correct": false,
+      "review_status": "pending",
+      "platinum_target": null,
+      "review_notes": ""
+    }
+  ]
+}

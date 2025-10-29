@@ -1,0 +1,18 @@
+{
+  "dataset_name": "2wikimultihopqa",
+  "models": [
+    "gpt-4o",
+    "gpt-4o-mini",
+    "gemini/gemini-2.5-flash"
+  ],
+  "num_questions": 50,
+  "timestamp": "2025-10-28T16:46:02.421095",
+  "output_directory": "platinum_review/2wikimultihopqa_20251028_164254",
+  "agreement_stats": {
+    "all_exact_match": 20,
+    "some_exact_match": 14,
+    "all_no_match": 16,
+    "num_auto_verified": 20,
+    "num_needs_review": 30
+  }
+}

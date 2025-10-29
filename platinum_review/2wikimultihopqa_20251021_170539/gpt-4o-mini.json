@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "model_name": "gpt-4o-mini",
+    "dataset_name": "2wikimultihopqa",
+    "num_questions": 10,
+    "num_exact_match": 8,
+    "num_substring_match": 1,
+    "num_no_match": 1
+  },
+  "results": [
+    {
+      "question_id": "83bf3b5a0bd911eba7f7acde48001122",
+      "question": "When did Lothair Ii's mother die?",
+      "predicted_answer": "20 March 851",
+      "full_response": "Lothair II's mother is Ermengarde of Tours. According to the information provided, Ermengarde of Tours died on 20 March 851. Therefore, the answer to the question regarding when Lothair II's mother died is directly found in the text. \n\nAnswer: 20 March 851.",
+      "gold_answers": [
+        "20 March 851"
+      ],
+      "oracle_context": "Wikipedia Title: Lothair II\nHe was the second son of Emperor Lothair I and Ermengarde of Tours.\nWikipedia Title: Ermengarde of Tours\nErmengarde of Tours (d. 20 March 851) was the daughter of Hugh of Tours, a member of the Etichonen family."
+    },
+    {
+      "question_id": "a80d84e7096d11ebbdb0ac1f6bf848b6",
+      "question": "Which film was released first, Aas Ka Panchhi or Phoolwari?",
+      "predicted_answer": "Phoolwari",
+      "full_response": "To determine which film was released first, I need to compare the release years of both films. Aas Ka Panchhi was released in 1961, while Phoolwari was released in 1946. Since 1946 is earlier than 1961, Phoolwari was released first. \n\nAnswer: Phoolwari.",
+      "gold_answers": [
+        "Phoolwari"
+      ],
+      "oracle_context": "Wikipedia Title: Aas Ka Panchhi\nAas Ka Panchhi is a 1961 Hindi movie produced by J. Om Prakash.\nWikipedia Title: Phoolwari\nPhoolwari( The Bower) is a 1946 Indian Bollywood film."
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "question": "What is the place of birth of the performer of song Changed It?",
+      "predicted_answer": "Saint James, Port of Spain",
+      "full_response": "The performer of the song \"Changed It\" is Nicki Minaj. According to the information provided, she was born in Saint James, Port of Spain. Therefore, the place of birth of Nicki Minaj, the performer of the song, is Saint James, Port of Spain. \nAnswer: Saint James, Port of Spain.",
+      "gold_answers": [
+        "Port of Spain"
+      ],
+      "oracle_context": "Wikipedia Title: Changed It\n\"Changed It\" is a song by Trinidadian-American rapper and singer Nicki Minaj and American rapper Lil Wayne.\nWikipedia Title: Nicki Minaj\nBorn in Saint James, Port of Spain, and raised in Queens, New York City, she gained public recognition after releasing the mixtapes"
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "question": "Are Marufabad and Nasamkhrali both located in the same country?",
+      "predicted_answer": "No",
+      "full_response": "Marufabad is located in Iran, specifically in Isfahan Province, while Nasamkhrali is located in Georgia. Since these are two different countries, they are not located in the same country. \nAnswer: No.",
+      "gold_answers": [
+        "no"
+      ],
+      "oracle_context": "Wikipedia Title: Marufabad\nMarufabad( also Romanized as Ma\u2018r\u016bf\u0101b\u0101d) is a village in Kabutarsorkh Rural District, in the Central District of Chadegan County, Isfahan Province, Iran.\nWikipedia Title: Nasamkhrali\nNasamkhrali( previously known as Nasomkhari until 1955) is a village in the Telavi district of Georgia."
+    },
+    {
+      "question_id": "a1cdb240085811ebbd5bac1f6bf848b6",
+      "question": "Which film has the director who is older, God'S Gift To Women or Aldri Annet Enn Br\u00e5k?",
+      "predicted_answer": "God's Gift to Women",
+      "full_response": "To determine which film has the older director, I need to identify the birth years of the directors of both films. \n\n1. \"God's Gift to Women\" is directed by Michael Curtiz, who was born on December 24, 1886.\n2. \"Aldri annet enn br\u00e5k\" is edited by Edith Carlmar, who was born on November 15, 1911.\n\nNow, comparing their birth years:\n- Michael Curtiz (1886) is older than Edith Carlmar (1911).\n\nSince Michael Curtiz directed \"God's Gift to Women,\" and he is older than Edith Carlmar, who is associated with \"Aldri annet enn br\u00e5k,\" it follows that \"God's Gift to Women\" has the older director.\n\nAnswer: God's Gift to Women.",
+      "gold_answers": [
+        "God'S Gift To Women"
+      ],
+      "oracle_context": "Wikipedia Title: God's Gift to Women\nGod's Gift to Women is a 1931 American pre-Code romantic musical comedy film directed by Michael Curtiz, starring Frank Fay, Laura LaPlante, and Joan Blondell.\nWikipedia Title: Aldri annet enn br\u00e5k\nAldri annet enn br\u00e5k is a 1954 Norwegian comedy- drama film, edited by Edith Carlmar.\nWikipedia Title: Michael Curtiz\nMih\u00e1ly Kert\u00e9sz (1905); December 24, 1886 April 11, 1962) was a Hungarian-born American film director, recognized as one of the most prolific directors in history.\nWikipedia Title: Edith Carlmar\nEdith Carlmar (Edith Mary Johanne Mathiesen) (15 November 1911 \u2013 17 May 2003) was an Norwagian actress and Norway's first female film director."
+    },
+    {
+      "question_id": "6718770a087311ebbd66ac1f6bf848b6",
+      "question": "Which film whose director was born first, El Tonto or The Heart Of Doreon?",
+      "predicted_answer": "The Heart of Doreon",
+      "full_response": "To determine which film's director was born first, we need to look at the birth dates of the directors of both films. \n\n1. **El Tonto** is directed by Charlie Day, who was born on February 9, 1976.\n2. **The Heart of Doreon** is directed by Robert North Bradbury, who was born on March 23, 1886.\n\nSince 1886 is significantly earlier than 1976, Robert North Bradbury, the director of The Heart of Doreon, was born first.\n\nAnswer: The Heart of Doreon.",
+      "gold_answers": [
+        "The Heart Of Doreon"
+      ],
+      "oracle_context": "Wikipedia Title: El Tonto\nEl Tonto is an upcoming comedy film written and directed by Charlie Day.\nWikipedia Title: The Heart of Doreon\nIt was directed by Robert North Bradbury and stars Tom Santschi and Ruth Stonehouse.\nWikipedia Title: Charlie Day\nCharles Peckham Day( born February 9, 1976) is an American actor, screenwriter, producer, director and musician.\nWikipedia Title: Robert North Bradbury\nRobert N. Bradbury( March 23, 1886 \u2013 November 24, 1949)( born Ronald E. Bradbury) was an American film director and screenwriter who directed 125 movies between 1918 and 1941."
+    },
+    {
+      "question_id": "7f7046d308f711ebbdaaac1f6bf848b6",
+      "question": "Who was born first out of Aivar Kuusmaa and Andy Summers?",
+      "predicted_answer": "Andy Summers",
+      "full_response": "To determine who was born first, I need to compare the birth dates of Aivar Kuusmaa and Andy Summers. Aivar Kuusmaa was born on 12 June 1967, while Andy Summers was born on 31 December 1942. Since 1942 is earlier than 1967, Andy Summers was born first. \n\nAnswer: Andy Summers.",
+      "gold_answers": [
+        "Andy Summers"
+      ],
+      "oracle_context": "Wikipedia Title: Aivar Kuusmaa\nAivar Kuusmaa( born 12 June 1967) is an Estonian basketball coach and former professional basketball player who played mostly at the shooting guard position.\nWikipedia Title: Andy Summers\nAndrew James Somers( born 31 December 1942 from Poulton- le- Fylde, Lancashire), known professionally as Andy Summers, is an English singer and guitarist who was a member of the rock band the Police."
+    },
+    {
+      "question_id": "9fe6a6760baf11ebab90acde48001122",
+      "question": "Who is Raghnall Mac Ruaidhr\u00ed's paternal grandfather?",
+      "predicted_answer": "Ail\u00e9an mac Ruaidhr\u00ed",
+      "full_response": "To determine Raghnall Mac Ruaidhr\u00ed's paternal grandfather, we need to look at the lineage provided. Raghnall's father is Ruaidhr\u00ed Mac Ruaidhr\u00ed, and Ruaidhr\u00ed is identified as the illegitimate son of Ail\u00e9an mac Ruaidhr\u00ed. Therefore, Ail\u00e9an mac Ruaidhr\u00ed is Raghnall's paternal grandfather. \n\nAnswer: Ail\u00e9an mac Ruaidhr\u00ed.",
+      "gold_answers": [
+        "Ail\u00e9an mac Ruaidhr\u00ed"
+      ],
+      "oracle_context": "Wikipedia Title: Raghnall Mac Ruaidhr\u00ed\nRaghnall's father, Ruaidhr\u00ed Mac Ruaidhr\u00ed, appears to have been slain in 1318, at a time when Raghnall may have been under age.\nWikipedia Title: Ruaidhr\u00ed Mac Ruaidhr\u00ed\nHe was an illegitimate son of Ail\u00e9an mac Ruaidhr\u00ed, and is recorded to have participated in the kindred's military actions against supporters of both the English Crown and Scottish Crown."
+    },
+    {
+      "question_id": "551e024408a611ebbd7fac1f6bf848b6",
+      "question": "Do both films Interview With A Hitman and The Last Coupon have the directors from the same country?",
+      "predicted_answer": "Yes",
+      "full_response": "To determine if both films, \"Interview with a Hitman\" and \"The Last Coupon,\" have directors from the same country, we need to identify the nationalities of the directors. \n\n\"Interview with a Hitman\" was directed by Perry Bhandal, who is identified as a British film director. \n\n\"The Last Coupon\" was directed by Frank Launder, who is also identified as a British director.\n\nSince both directors are British, they are from the same country. \n\nAnswer: Yes.",
+      "gold_answers": [
+        "yes"
+      ],
+      "oracle_context": "Wikipedia Title: Interview with a Hitman\nInterview with a Hitman is a 2012 British action film written and directed by Perry Bhandal.\nWikipedia Title: The Last Coupon\nThe Last Coupon is a 1932 British comedy film directed by Frank Launder and starring Leslie Fuller, Mary Jerrold and Molly Lamont.\nWikipedia Title: Perry Bhandal\nPerry Bhandal( born 12 January 1968) is a British film director, screenwriter, and producer of the films\" Interview with a Hitman\"&'' and author of _prelude a collection of short stories and artwork.\nWikipedia Title: Frank Launder\nFrank Launder (28 January 1906 \u2013 23 February 1997) was a British writer, film director and producer, who made more than 40 films, many of them in collaboration with Sidney Gilliat."
+    },
+    {
+      "question_id": "33f51d7e0bde11eba7f7acde48001122",
+      "question": "What nationality is the director of film Blood Street?",
+      "predicted_answer": "American",
+      "full_response": "The director of the film \"Blood Street\" is Leo Fong. According to the information provided, Leo Fong is identified as a Chinese American. Therefore, his nationality can be classified as American, with Chinese heritage. \nAnswer: American.",
+      "gold_answers": [
+        "Chinese"
+      ],
+      "oracle_context": "Wikipedia Title: Blood Street\nBlood Street is a 1988 film co-directed by Leo Fong.\nWikipedia Title: Leo Fong\nLeo Fong (born November 23, 1928) is a Chinese American actor, martial artist, boxer, and former Methodist minister who has been making films, acting, and directing since the early 1970s."
+    }
+  ]
+}
